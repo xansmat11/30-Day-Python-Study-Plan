@@ -21,3 +21,21 @@ total = numOne + numOne
 diff = numOne - numTwo
 product = numOne * numTwo
 division = numOne / numTwo
+variableRemainder = numOne % numTwo
+variableExp = numOne ** numTwo
+floorDivision = numOne // numTwo
+
+radius = 30
+pi = 3.14
+
+areaOfCircle = pi * (radius) ** 2
+print(areaOfCircle, 'meters')
+
+circumferenceOfCircle = 2 * pi * radius
+print(circumferenceOfCircle, 'meters')
+
+first_name = input('First Name: ')
+last_name = input('Last Name: ')
+user_country = input('Country: ')
+user_age =  input('Age: ')
+print(first_name, last_name, user_country, user_age, sep="\n")
